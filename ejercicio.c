@@ -7,7 +7,7 @@ p = &arr[0];
 for (int i=0; i <5; i++){
     printf("arr[%d] = %d\t", i, arr[i]);
     //p = &arr[i];
-    printf ("%d\n ", *(p+1));
+    printf ("%d\n ", *(p++));
 }
 
 }
